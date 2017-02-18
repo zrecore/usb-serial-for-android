@@ -20,4 +20,7 @@
     
     <!-- 0x1a86 / 0x7523: Qinheng CH340 -->
     <usb-device vendor-id="6790" product-id="29987" />
+
+    <!-- 0x03eb / 0x6124: ATMEL SAM-BA Bootloader (at91sam) -->
+    <usb-device vendor-id="03eb" product-id="6124" />
 </resources>

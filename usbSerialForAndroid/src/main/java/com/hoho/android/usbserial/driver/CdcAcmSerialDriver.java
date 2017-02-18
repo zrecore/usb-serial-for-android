@@ -421,6 +421,7 @@ public class CdcAcmSerialDriver implements UsbSerialDriver {
         supportedDevices.put(Integer.valueOf(UsbId.VENDOR_ATMEL),
                 new int[] {
                     UsbId.ATMEL_LUFA_CDC_DEMO_APP,
+                    UsbId.ATMEL_SAMBA_BOOTLOADER
                 });
         supportedDevices.put(Integer.valueOf(UsbId.VENDOR_LEAFLABS),
                 new int[] {
